@@ -224,35 +224,35 @@ myApp.services = {
   fixtures: [
     {
       title: 'Download OnsenUI',
-      category: 'Programming',
+      category: 'Yiyecekler',
       description: 'Some description.',
       highlight: false,
       urgent: false
     },
     {
       title: 'Install Monaca CLI',
-      category: 'Programming',
+      category: 'Içecekler',
       description: 'Some description.',
       highlight: false,
       urgent: false
     },
     {
       title: 'Star Onsen UI repo on Github',
-      category: 'Super important',
+      category: 'Tatlilar',
       description: 'Some description.',
       highlight: false,
       urgent: false
     },
     {
       title: 'Register in the community forum',
-      category: 'Super important',
+      category: 'Alkollu İçecekler',
       description: 'Some description.',
       highlight: false,
       urgent: false
     },
     {
       title: 'Send donations to Fran and Andreas',
-      category: 'Super important',
+      category: 'Alkollu İçecekler',
       description: 'Some description.',
       highlight: false,
       urgent: false
@@ -266,14 +266,14 @@ myApp.services = {
     },
     {
       title: 'Visit Japan',
-      category: 'Travels',
+      category: 'Mezeler',
       description: 'Some description.',
       highlight: false,
       urgent: false
     },
     {
       title: 'Enjoy an Onsen with Onsen UI team',
-      category: 'Personal',
+      category: 'Yiyecekler',
       description: 'Some description.',
       highlight: false,
       urgent: false
