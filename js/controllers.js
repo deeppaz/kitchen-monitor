@@ -51,7 +51,9 @@ myApp.controllers = {
           // If input title is not empty, create a new task.
           myApp.services.tasks.create(
             {
+              masaNumarasi: newTitle,
               title: newTitle,
+              oturum: newTitle,
               category: page.querySelector('#category-input').value,
               description: page.querySelector('#description-input').value,
               highlight: page.querySelector('#highlight-input').checked,
@@ -80,7 +82,9 @@ myApp.controllers = {
     var element = page.data.element;
 
     // Fill the view with the stored data.
+    page.querySelector('#masaNumarasi-input').value = element.data.masaNumarasi;
     page.querySelector('#title-input').value = element.data.title;
+    page.querySelector('#oturum-input').value = element.data.oturum;
     page.querySelector('#category-input').value = element.data.category;
     page.querySelector('#description-input').value = element.data.description;
     page.querySelector('#highlight-input').checked = element.data.highlight;
@@ -103,7 +107,9 @@ myApp.controllers = {
             // If 'Save' button was pressed, overwrite the task.
             myApp.services.tasks.update(element,
               {
+                masaNumarasi: newTitle,
                 title: newTitle,
+                oturum: newTitle,
                 category: page.querySelector('#category-input').value,
                 description: page.querySelector('#description-input').value,
                 ugent: element.data.urgent,

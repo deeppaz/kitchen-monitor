@@ -18,7 +18,16 @@ myApp.services = {
            '<ons-checkbox></ons-checkbox>' +
           '</label>' +
           '<div class="center">' +
-            data.title +
+            data.masaNumarasi +
+            '<span style="padding-left: 20px">- </span>' +
+            '<span style="padding-left: 20px"> </span>' +
+            data.title + 
+            '<span style="padding-left: 20px">- </span>' +
+            '<span style="padding-left: 20px"> </span>' +
+            data.category +
+            '<span style="padding-left: 20px">- </span>' +
+            '<span style="padding-left: 20px"> </span>' +
+            data.oturum +
           '</div>' +
           '<div class="right">' +
             '<ons-icon style="color: grey; padding-left: 4px" icon="ion-ios-trash-outline, material:md-delete"></ons-icon>' +
@@ -223,27 +232,34 @@ myApp.services = {
   ////////////////////////
   fixtures: [
     {
+      masaNumarasi: '1',
       title: 'Download OnsenUI',
+      oturum: 45,
       category: 'Yiyecekler',
       description: 'Some description.',
       highlight: false,
       urgent: false
     },
     {
+      masaNumarasi: '2',
       title: 'Install Monaca CLI',
+      oturum: 45,
       category: 'Içecekler',
       description: 'Some description.',
       highlight: false,
       urgent: false
     },
     {
+      masaNumarasi: '3',
       title: 'Star Onsen UI repo on Github',
+      oturum: 45,
       category: 'Tatlilar',
       description: 'Some description.',
       highlight: false,
       urgent: false
     },
     {
+      masaNumarasi: '4',
       title: 'Register in the community forum',
       category: 'Alkollu İçecekler',
       description: 'Some description.',
@@ -251,6 +267,7 @@ myApp.services = {
       urgent: false
     },
     {
+      masaNumarasi: '5',
       title: 'Send donations to Fran and Andreas',
       category: 'Alkollu İçecekler',
       description: 'Some description.',
@@ -258,6 +275,7 @@ myApp.services = {
       urgent: false
     },
     {
+      masaNumarasi: '6',
       title: 'Profit',
       category: '',
       description: 'Some description.',
@@ -265,6 +283,7 @@ myApp.services = {
       urgent: false
     },
     {
+      masaNumarasi: '7',
       title: 'Visit Japan',
       category: 'Mezeler',
       description: 'Some description.',
@@ -272,6 +291,7 @@ myApp.services = {
       urgent: false
     },
     {
+      masaNumarasi: '8',
       title: 'Enjoy an Onsen with Onsen UI team',
       category: 'Yiyecekler',
       description: 'Some description.',
