@@ -2153,7 +2153,7 @@ h4, h5, h6 {
   margin: 0;
   padding: 0;
   height: 49px;
-  background-color: #fff;
+  background-color: rgb(32, 33, 36);
   border-top: 1px solid #ccc;
   width: 100%;
 }
@@ -2224,7 +2224,7 @@ h4, h5, h6 {
   padding: 0;
   height: 49px;
   letter-spacing: 0;
-  color: #999;
+  color: #f9f9f9;
   text-shadow: 0 1px none;
   vertical-align: top;
   background-color: transparent;
@@ -2275,7 +2275,7 @@ h4, h5, h6 {
   padding: 0;
 }
 :checked + .tabbar__button {
-  color: rgba(24, 103, 194, .81);
+  color: rgba(241, 137, 0, 0.81);
   background-color: transparent;
   box-shadow: none;
   border-top: none;
@@ -6584,7 +6584,7 @@ h4, h5, h6 {
   border-radius: 8px;
   background-color: white;
   box-sizing: border-box;
-  display: block;
+  display: inline-table;
   margin: 8px;
   padding: 16px;
   text-align: left;
