@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Onsen UI Memo App 2.0</title>
+  <title>@RestoranAdi - Kitchen Monitor</title>
 
   <script src="lib/onsen/js/onsenui.js"></script>
 
@@ -65,12 +65,16 @@
       <!-- Auto-positioned Tabbar: top on Android, bottom on iOS/other. -->
       <ons-tabbar id="myTabbar" position="auto">
         <ons-tab page="html/pending_tasks.html" label="Pending" active>
-          Dolu Masalar
-          <ion-icon name="woman"></ion-icon>
+          Akış
+          <ion-icon name="eye"></ion-icon>
+        </ons-tab>
+        <ons-tab page="html/masalar.html" label="Masalar" active>
+          Masalar
+          <ion-icon name="square"></ion-icon>
         </ons-tab>
         <ons-tab page="html/completed_tasks.html" label="Completed">
-          Completed
-          <ion-icon name="walk"></ion-icon>
+          Boş Masalar
+          <ion-icon name="square-outline"></ion-icon>
         </ons-tab>
       </ons-tabbar>
     </ons-page>
