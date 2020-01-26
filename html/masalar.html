@@ -8,8 +8,13 @@
    
     <button class="button--large--cta" style="width:200px;margin:7px 50px;">Masa Numarası: <span class="notification notification--material">14</span></button>
     <hr/>
-    <div class="title" style="color:coral;">
-      Jimmy Durak
+    <div class="toolbar">
+      <div class="toolbar__center" style="color:coral;">
+        Jimmy Durak
+      </div>
+      <div class="toolbar__right">
+        <span class="toolbar-button" style="color:forestgreen;">Ödendi</span>
+      </div>
     </div>
     <div class="content">
       <!-- <div>
@@ -18,24 +23,81 @@
       </div> -->
       <br/>
       <ons-list>
-        <ons-list-header>İşlemler</ons-list-header>
-        <ons-list-item>x2 Pizza</ons-list-item>
-        <ons-list-item>x5 Coke</ons-list-item>
-        <ons-list-item>x1 Shrimp & Stone-ground creampy</ons-list-item>
-        <ons-list-item>x1 Oysters Rockefeller</ons-list-item>
-        <ons-list-item>x1 Mushroom Risotto</ons-list-item>
-        <ons-list-item>x1 Crispy Chicken Liver</ons-list-item>
-        <ons-list-item>x1 Cheescake</ons-list-item>
+        <ons-list-header>İçecekler</ons-list-header>
+        <ons-list-item tappable>
+          <label class="left">
+            <ons-checkbox input-id="check-1"></ons-checkbox>
+          </label>
+          <label for="check-1" class="center">
+            Coke
+          </label>
+        </ons-list-item>
+        <ons-list-header>Yiyecekler</ons-list-header>
+        <ons-list-item tappable>
+          <label class="left">
+            <ons-checkbox input-id="check-2"></ons-checkbox>
+          </label>
+          <label for="check-2" class="center">
+            x1 Shrimp & Stone-ground creampy
+          </label>
+        </ons-list-item>
+        <ons-list-item tappable>
+          <label class="left">
+            <ons-checkbox input-id="check-3"></ons-checkbox>
+          </label>
+          <label for="check-3" class="center">
+            x1 Oysters Rockefeller
+          </label>
+        </ons-list-item>
+        <ons-list-item tappable>
+          <label class="left">
+            <ons-checkbox input-id="check-4"></ons-checkbox>
+          </label>
+          <label for="check-4" class="center">
+            x1 Mushroom Risotto
+          </label>
+        </ons-list-item>
+        <ons-list-item tappable>
+          <label class="left">
+            <ons-checkbox input-id="check-5"></ons-checkbox>
+          </label>
+          <label for="check-5" class="center">
+            x1 Crispy Chicken Liver
+          </label>
+        </ons-list-item>
+        <ons-list-item tappable>
+          <label class="left">
+            <ons-checkbox input-id="check-6"></ons-checkbox>
+          </label>
+          <label for="check-6" class="center">
+            x2 Pizza
+          </label>
+        </ons-list-item>
+        <ons-list-header>Tatlilar</ons-list-header>
+        <ons-list-item tappable>
+          <label class="left">
+            <ons-checkbox input-id="check-7"></ons-checkbox>
+          </label>
+          <label for="check-7" class="center">
+            Cheescake
+          </label>
+        </ons-list-item>
       </ons-list>
     </div>
   </ons-card>
+
   <ons-card>
     <!-- <img src="https://monaca.io/img/logos/download_image_onsenui_01.png" alt="Onsen UI" style="width: 100%"> -->
    
-    <button class="button--large--cta" style="width:200px;margin:7px 50px;">Masa Numarası: <span class="notification">14</span></button>
+    <button class="button--large--cta" style="width:200px;margin:7px 50px;">Masa Numarası: <span class="notification notification--material">14</span></button>
     <hr/>
-    <div class="title" style="color:coral;">
-      Jimmy Durak
+    <div class="toolbar">
+      <div class="toolbar__center" style="color:royalblue;">
+        Jimmy Durak
+      </div>
+      <div class="toolbar__right">
+        <span class="toolbar-button" style="color: red;">Henüz Ödenmedi</span>
+      </div>
     </div>
     <div class="content">
       <!-- <div>
@@ -44,14 +106,65 @@
       </div> -->
       <br/>
       <ons-list>
-        <ons-list-header>İşlemler</ons-list-header>
-        <ons-list-item>x2 Pizza</ons-list-item>
-        <ons-list-item>x5 Coke</ons-list-item>
-        <ons-list-item>x1 Shrimp & Stone-ground creampy</ons-list-item>
-        <ons-list-item>x1 Oysters Rockefeller</ons-list-item>
-        <ons-list-item>x1 Mushroom Risotto</ons-list-item>
-        <ons-list-item>x1 Crispy Chicken Liver</ons-list-item>
-        <ons-list-item>x1 Cheescake</ons-list-item>
+        <ons-list-header>İçecekler</ons-list-header>
+        <ons-list-item tappable>
+          <label class="left">
+            <ons-checkbox input-id="check-1"></ons-checkbox>
+          </label>
+          <label for="check-1" class="center">
+            Coke
+          </label>
+        </ons-list-item>
+        <ons-list-header>Yiyecekler</ons-list-header>
+        <ons-list-item tappable>
+          <label class="left">
+            <ons-checkbox input-id="check-2"></ons-checkbox>
+          </label>
+          <label for="check-2" class="center">
+            x1 Shrimp & Stone-ground creampy
+          </label>
+        </ons-list-item>
+        <ons-list-item tappable>
+          <label class="left">
+            <ons-checkbox input-id="check-3"></ons-checkbox>
+          </label>
+          <label for="check-3" class="center">
+            x1 Oysters Rockefeller
+          </label>
+        </ons-list-item>
+        <ons-list-item tappable>
+          <label class="left">
+            <ons-checkbox input-id="check-4"></ons-checkbox>
+          </label>
+          <label for="check-4" class="center">
+            x1 Mushroom Risotto
+          </label>
+        </ons-list-item>
+        <ons-list-item tappable>
+          <label class="left">
+            <ons-checkbox input-id="check-5"></ons-checkbox>
+          </label>
+          <label for="check-5" class="center">
+            x1 Crispy Chicken Liver
+          </label>
+        </ons-list-item>
+        <ons-list-item tappable>
+          <label class="left">
+            <ons-checkbox input-id="check-6"></ons-checkbox>
+          </label>
+          <label for="check-6" class="center">
+            x2 Pizza
+          </label>
+        </ons-list-item>
+        <ons-list-header>Tatlilar</ons-list-header>
+        <ons-list-item tappable>
+          <label class="left">
+            <ons-checkbox input-id="check-7"></ons-checkbox>
+          </label>
+          <label for="check-7" class="center">
+            Cheescake
+          </label>
+        </ons-list-item>
       </ons-list>
     </div>
   </ons-card>
