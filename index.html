@@ -9,7 +9,6 @@
   <script src="js/app.js"></script>
   <script src="js/masalar.js"></script>
   <script src="js/controllers.js"></script>
-  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
   <link rel="stylesheet" href="lib/onsen/css/onsenui.css">
   <link rel="stylesheet" href="lib/onsen/css/onsen-css-components.css">
@@ -65,18 +64,16 @@
       <!-- Auto-positioned Tabbar: top on Android, bottom on iOS/other. -->
       <ons-tabbar id="myTabbar" position="auto">
         <ons-tab page="html/pending_tasks.html" label="Pending" active>
-          Akış
-          <ion-icon name="eye"></ion-icon>
+          <span class="tabbar__icon ion-stop"> Akış</span>
         </ons-tab>
         <ons-tab page="html/masalar.html" label="Masalar" active>
-          Masalar
-          <ion-icon name="square"></ion-icon>
+          <span class="tabbar__icon ion-stop"> Masalar</span>
         </ons-tab>
         <ons-tab page="html/completed_tasks.html" label="Completed">
-          Boş Masalar
-          <ion-icon name="square-outline"></ion-icon>
+          <span class="tabbar__icon ion-record"> Boş Masalar</span>
         </ons-tab>
       </ons-tabbar>
+      
     </ons-page>
   </template>
 
